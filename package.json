@@ -1,0 +1,17 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "node main.js",
+    "start": "node index.js -i",
+    "test": "node --test tests/calculator.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
